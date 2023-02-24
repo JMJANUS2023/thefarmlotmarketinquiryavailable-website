@@ -1,0 +1,96 @@
+.btn{
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;padding: 2rem 3 rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.btn--primary {
+    background: dodgerblue;
+    color: white;
+}
+.btn--primary:hover{
+    background: rgb(128, 30, 255);
+}
+.btn--secondary {
+    background: darkturquoise;
+    color: white;
+}
+.btn--secondary:hover {
+    background:rgb(128, 30, 255);
+}
+.btn--accent {
+    background: orangered;
+    color: white;
+}
+.btn--accent:hover {
+    background: rgb(128, 30, 255);
+}
+.btn--outline{
+    background: brown;
+    color: black;
+    border: 1px solid black;
+}
+.btn--outline:hover{
+    background: black;
+    color: #fff;
+}
+.btn--additional{
+    background: orange;
+    color: black;
+    border: 1px solid black;
+}
+.btn--additional:hover{
+    background: black;
+    color: #fff;
+}
+.btn--outline{
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.btn--outline:hover{
+    background: black;
+    color: #fff;
+}
+.btn--outline{
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.btn--outline:hover{
+    background: black;
+    color: #fff;
+}
+.btn--outline{
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.btn--outline:hover{
+    background: black;
+    color: #fff;
+}
+.btn--outline{
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.btn--outline:hover{
+    background: black;
+    color: #fff;
+}
+.btn--block {
+    width: 100%;
+    display: inline-block;
+}
+
+/* Media query is when screen is getting large than 1024px*/
+@media screen and (min-width(1024px) {
+    .btn{
+        font-size: 1.5rem;
+    }
+}
+
